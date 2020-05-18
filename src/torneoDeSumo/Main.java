@@ -9,5 +9,6 @@ public class Main {
 		Torneo torneo = ProcesadorArchivo.lecturaYCarga("sumo.in");
 		List<Integer> resultadoActual = torneo.generarDominantes();
 		ProcesadorArchivo.escritura("sumo.out", resultadoActual);
+		// cambio
 	}
 }
